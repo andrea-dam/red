@@ -1,8 +1,18 @@
 /* font-family: 'Nova Square', cursive;
 font-family: 'Rajdhani', sans-serif; */
 
+:root {
+    --rosso: #8B0F02
+    /* --fa-primary-color: #8B0F02; */
+}
+
 * {
     font-family: 'Rajdhani', sans-serif;
+}
+
+strong {
+    font-size: 80px;
+    color: var(--rosso);
 }
 
 .logo {
@@ -34,7 +44,7 @@ nav {
 
 #titolo {
     font-size: 100px;
-    color: #8B0F02;
+    color: var(--rosso);
     font-family: 'Nova Square', cursive;
 }
 
@@ -51,16 +61,17 @@ nav {
     font-style: italic;
 }
 
-.icone {
-    --fa-primary-color: #8B0F02;
+.pulsante {
+    background-color: var(--rosso);
 }
 
-.pulsante {
-    background-color: #8B0F02;
+.bottone {
+    margin-top: 7rem;
+    margin-bottom: -16rem;
 }
 
 .pulsante:hover {
-    background-color: #8B0F02 !important;
+    background-color: var(--rosso) !important;
 }
 
 body, .carta {
@@ -69,11 +80,16 @@ body, .carta {
 }
 
 .alberi {
-    top: 1235px;
+    /* top: 1440px; */
+    position: relative;
 }
 
+/* .sezione-1 {
+    height: 1000px;
+} */
+
 .sezione {
-    margin-top: 15rem;
+    /* margin-top: 15rem; */
     background-image: url(./media/trees.png);
     background-color: #ffffff;
     background-size: contain;
@@ -92,11 +108,11 @@ body, .carta {
     border-radius: 50%;
 }
 
-.sezione-1 {
-    height: 800px;
+footer {
+    background-color: var(--rosso);
+    color: #ffffff;
 }
 
-footer {
-    background-color: #8B0F02;
-    color: #ffffff;
+.icone {
+    color: var(--rosso);
 }
