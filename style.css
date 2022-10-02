@@ -69,6 +69,11 @@ main {
 
 body, .carta {
     background-color: #ECECEC;
+    /* max-width: 100%; */
+}
+
+body {
+    /* width: 100vh; */
 }
 
 .alberi {
