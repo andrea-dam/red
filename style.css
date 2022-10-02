@@ -86,3 +86,12 @@ body {
     background-color: #ffffff;
     background-size: contain;
 }
+
+.carte {
+    background-color: #ECECEC;
+}
+
+.immagine-carte {
+    border-radius: 50%;
+    position: relative;
+}
