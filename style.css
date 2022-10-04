@@ -29,6 +29,7 @@ a {
 
 nav {
     background-color: rgb(255, 255, 255);
+    height: 25vh;
 }
 
 .header {
@@ -42,10 +43,11 @@ nav {
     /* z-index: 99; */
 }
 
-#titolo {
-    font-size: 100px;
+.titolo {
+    font-size: 7rem;
     color: var(--rosso);
     font-family: 'Nova Square', cursive;
+    letter-spacing: 50px;
 }
 
 .montagne {
@@ -67,7 +69,7 @@ nav {
 
 .bottone {
     margin-top: 7rem;
-    margin-bottom: -16rem;
+    margin-bottom: -12rem;
 }
 
 .pulsante:hover {
@@ -83,10 +85,6 @@ body, .carta {
     /* top: 1440px; */
     position: relative;
 }
-
-/* .sezione-1 {
-    height: 1000px;
-} */
 
 .sezione {
     /* margin-top: 15rem; */
