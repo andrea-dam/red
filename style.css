@@ -34,20 +34,22 @@ nav {
 
 .header {
     background: linear-gradient(rgb(255, 255, 255), rgba(194, 194, 194, 0)), url(./media/switzerland-862870_1920.jpg);
-    width: 100%;
-    height: 720px;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 75vh;
     /* z-index: 99; */
 }
 
 .titolo {
-    font-size: 7rem;
+    font-size: 10vh;
     color: var(--rosso);
     font-family: 'Nova Square', cursive;
-    letter-spacing: 50px;
+    /* letter-spacing: 50px; */
+    justify-content: center;
+    max-width: max-content;
+    
 }
 
 .montagne {
@@ -97,11 +99,6 @@ body, .carta {
     background-color: #ECECEC;
 }
 
-.immagine-carte {
-    border-radius: 50%;
-    position: relative;
-}
-
 .immagini {
     border-radius: 50%;
 }
@@ -113,4 +110,8 @@ footer {
 
 .icone {
     color: var(--rosso);
+}
+
+.parte_superiore {
+    height: 100vh;
 }
