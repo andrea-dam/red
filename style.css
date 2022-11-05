@@ -3,7 +3,6 @@ font-family: 'Rajdhani', sans-serif; */
 
 :root {
     --rosso: #8B0F02
-    /* --fa-primary-color: #8B0F02; */
 }
 
 * {
@@ -38,7 +37,8 @@ nav {
     align-items: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 75vh;
+    height: 100vh;
+    bottom: 0;
     /* z-index: 99; */
 }
 
@@ -52,13 +52,13 @@ nav {
     
 }
 
-.montagne {
-    background: url(./media/mountains2.png);
+/* .montagne { */
+    /* background: url(./media/mountains2.png); */
     /* z-index: 100; */
-    align-items: center;
+    /* align-items: center;
     background-size: contain;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat; */
+/* } */
 
 #citazione {
     font-size: 20px;
@@ -103,9 +103,24 @@ body, .carta {
     border-radius: 50%;
 }
 
+main {
+    margin-bottom: 300px;
+}
+
+/* section {
+    position: relative;
+} */
+
+#img-footer {
+    position: absolute;
+    bottom: 200px;
+}
+
 footer {
     background-color: var(--rosso);
     color: #ffffff;
+    position: relative;
+    bottom: 0;
 }
 
 .icone {
