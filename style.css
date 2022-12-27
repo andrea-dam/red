@@ -111,3 +111,8 @@ footer {
 .parte_superiore {
     height: 100vh;
 }
+
+.rounded-image {
+    border: solid var(--rosso) 6px;
+    padding: 7px;
+}
