@@ -9,6 +9,31 @@ font-family: 'Rajdhani', sans-serif; */
     font-family: 'Rajdhani', sans-serif;
 }
 
+.color-1 {
+    color: var(--rosso);
+}
+
+.titolo {
+    font-size: 10vh;
+    color: var(--rosso);
+    font-family: 'Nova Square', cursive;
+}
+
+@media (max-width: 375px) {
+    .titolo {
+        letter-spacing: 10px;
+    }
+    nav {
+        height: fit-content;
+    }
+}
+
+@media (min-width: 768px) {
+    .titolo {
+        letter-spacing: 3rem;
+    }
+}
+
 strong {
     font-size: 80px;
     color: var(--rosso);
@@ -31,34 +56,15 @@ nav {
     height: 25vh;
 }
 
-.header {
+header {
     background: linear-gradient(rgb(255, 255, 255), rgba(194, 194, 194, 0)), url(./media/switzerland-862870_1920.jpg);
-    /* flex-direction: column; */
-    align-items: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
     bottom: 0;
-    /* z-index: 99; */
 }
 
-.titolo {
-    font-size: 10vh;
-    color: var(--rosso);
-    font-family: 'Nova Square', cursive;
-    /* letter-spacing: 50px; */
-    justify-content: center;
-    max-width: max-content;
-    
-}
-
-/* .montagne { */
-    /* background: url(./media/mountains2.png); */
-    /* z-index: 100; */
-    /* align-items: center;
-    background-size: contain;
-    background-repeat: no-repeat; */
-/* } */
 
 #citazione {
     font-size: 20px;
@@ -87,17 +93,9 @@ body, .carta {
     background-color: #ECECEC;
 }
 
-.immagini {
-    border-radius: 50%;
-}
-
 main {
     margin-bottom: 300px;
 }
-
-/* section {
-    position: relative;
-} */
 
 footer {
     background-color: var(--rosso);

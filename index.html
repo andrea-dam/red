@@ -21,19 +21,19 @@
         <a href="" class="d-flex justify-content-center">
             <img class="logo" src="media/logo.png" alt="">
         </a>    
-        <div class="row w-50 w-xs-100 mx-auto">
-            <a class="col-6 col-md-3" href="">Primo Link</a>
-            <a class="col-6 col-md-3" href="">Secondo Link</a>
-            <a class="col-6 col-md-3" href="">Terzo Link</a>
-            <a class="col-6 col-md-3" href="">Quarto Link</a>
+        <div class="row justify-content-around">
+            <a class="col-3 col-md-3" href="">Lorem Ipsum</a>
+            <a class="col-3 col-md-3" href="">Lorem Ipsum</a>
+            <a class="col-3 col-md-3" href="">Lorem Ipsum</a>
+            <a class="col-3 col-md-3" href="">Lorem Ipsum</a>
         </div>
     </nav>
     <!-- Header -->
-    <header class="header container-fluid d-flex flex-row justify-content-center position-relative">
+    <header class="container-fluid d-flex flex-row justify-content-center align-items-center position-relative">
         <div class="row text-center d-block">
-            <h1 class="col titolo d-flex">L O R E M</h1>
+            <h1 class="col titolo d-flex">LOREM</h1>
         </div>
-        <img class="position-absolute bottom-0 start-0 w-100" src="./media/mountains2.png" alt="">
+        <img class="position-absolute bottom-0 start-0 w-100" src="./media/mountains2.png" alt="mountains">
     </header>
     <main>
         <!-- sezione 1 -->
@@ -46,8 +46,8 @@
                     </p>
                 </div>
                 <!-- carte -->
-                <div class="row row-cols-4 text-center">
-                    <div class="col">
+                <div class="row text-center">
+                    <div class="col-6 col-md-3 mb-3 mb-md-0">
                         <div class="card border-0 carta">
                             <i class="icone fa-regular fa-snowflake text-center fa-3x"></i>
                             <div class="card-body">
@@ -55,7 +55,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-6 col-md-3 mb-3 mb-md-0">
                         <div class="card border-0 carta">
                             <div class="text-center icone">
                                 <i class="fa-solid fa-mountain fa-3x"></i>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-6 col-md-3">
                         <div class="card border-0 carta">
                             <div class="icone text-center">
                                 <i class="fa-solid fa-map fa-3x"></i>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-6 col-md-3">
                         <div class="card border-0 carta">
                             <div class="icone text-center">
                                 <i class="fa-solid fa-campground fa-3x"></i>
@@ -88,19 +88,21 @@
                 </div>
                 <!-- colonne & bottone-->
                 <div class="row my-5 justify-content-center">
-                    <div class="col-5 text-start">
+                    <div class="col-12 col-md-6 text-start">
                         <h2>Lorem Ipsum Dolor Sit</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum dolorem recusandae aut dolores corporis error. Fugit voluptatibus suscipit qui a pariatur, mollitia, in consectetur voluptates, laboriosam nihil aut quos.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum facere corporis, nesciunt rem nihil assumenda eius dolore placeat dolorem ullam ea tempora! Voluptas vel consectetur vitae laudantium omnis assumenda!</p>
                     </div>
-                    <div class="col-5 text-end">
+                    <div class="col-12 col-md-6 text-end">
                         <h2>Lorem Ipsum Dolor Sit</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit harum dolorem recusandae aut dolores corporis error. Fugit voluptatibus suscipit qui a pariatur, mollitia, in consectetur voluptates, laboriosam nihil aut quos.</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum facere corporis, nesciunt rem nihil assumenda eius dolore placeat dolorem ullam ea tempora! Voluptas vel consectetur vitae laudantium omnis assumenda!</p>
                     </div>
                 </div>
-                <div class="row justify-content-center bottone">
-                    <button type="button" class="col-2 btn btn-primary btn-lg rounded-0 pulsante border-0">LOREM IMPSUM</button>
+                <div class="row justify-content-center bottone mb-1">
+                    <div class="col-4 col-md-3">
+                        <button type="button" class="btn btn-primary btn-lg rounded-0 pulsante border-0">LOREM IMPSUM</button>
+                    </div>
                 </div>
                 <div class="row">
                     <img class="px-0" src="./media/trees2.png" alt="">
@@ -109,30 +111,34 @@
         </section>    
         <!-- sezione 2 -->
         <section class="bg-white">
-            <div class="container">
+            <div class="container pt-3">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h2>Our Timeline</h2>
-                        <ul class="my-5">
+                        <ul class="my-5 fa-ul ps-3">
                             <li>
+                                <i class="fa-li fa-regular fa-circle color-1"></i>
                                 <h3>Lorem ipsum</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere tempore doloribus harum, nihil consequuntur cupiditate provident distinctio vel eius facilis nostrum voluptas doloremque iure architecto! Est nulla iure consequuntur.</p>
                             </li>
                             <li>
+                                <i class="fa-li fa-regular fa-circle color-1"></i>
                                 <h3>Lorem ipsum</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere tempore doloribus harum, nihil consequuntur cupiditate provident distinctio vel eius facilis nostrum voluptas doloremque iure architecto! Est nulla iure consequuntur.</p>
                             </li>
                             <li>
+                                <i class="fa-li fa-regular fa-circle color-1"></i>
                                 <h3>Lorem ipsum</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere tempore doloribus harum, nihil consequuntur cupiditate provident distinctio vel eius facilis nostrum voluptas doloremque iure architecto! Est nulla iure consequuntur.</p>
                             </li>
                             <li>
+                                <i class="fa-li fa-regular fa-circle color-1"></i>
                                 <h3>Lorem ipsum</h3>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere tempore doloribus harum, nihil consequuntur cupiditate provident distinctio vel eius facilis nostrum voluptas doloremque iure architecto! Est nulla iure consequuntur.</p>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-6 position-relative">
+                    <div class="col-6 d-none d-md-block position-relative">
                         <img src="/media/single.png" class="img-fluid position-absolute bottom-0 end-0" alt="">
                     </div>
                 </div>
@@ -143,7 +149,7 @@
             <div class="container">
                 <h2>Our Team</h2>
                 <div class="row my-5">
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card carta border-0">
                             <img src="http://picsum.photos/1000" class="card-img-top rounded-circle rounded-image img-fluid" alt="...">
                             <div class="card-body text-center">
@@ -157,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card carta border-0">
                             <img src="http://picsum.photos/1000" class="card-img-top rounded-circle rounded-image" alt="...">
                             <div class="card-body text-center">
@@ -171,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card carta border-0">
                             <img src="http://picsum.photos/1000" class="card-img-top rounded-circle rounded-image" alt="...">
                             <div class="card-body text-center">
@@ -185,7 +191,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-3">
+                    <div class="col-12 col-md-6 col-lg-3 mb-3">
                         <div class="card carte border-0">
                             <img src="http://picsum.photos/1000" class="card-img-top rounded-circle rounded-image" alt="...">
                             <div class="card-body text-center">
@@ -207,19 +213,19 @@
             <div class="container">
                 <h2>Our Benefit</h2>
                 <div class="row my-5">
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <h3>Lorem Ipsum dolor</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla perferendis est cumque dignissimos officiis ullam minus ea veniam ut quibusdam corrupti architecto possimus neque aut, assumenda, enim consectetur, necessitatibus repudiandae!</p>
                     </div>
-                    <div class="col-6 d-flex justify-content-center">
-                        <img class="w-50 immagini" src="./media/mountain-547363_1920.jpg" alt="">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img class="img-fluid rounded-circle" src="./media/mountain-547363_1920.jpg" alt="">
                     </div>
                 </div>
                 <div class="row my-5">
-                    <div class="col-6 d-flex justify-content-center">
-                        <img class="w-50 immagini img-fluid" src="./media/landscape-975091_1920.jpg" alt="">
+                    <div class="col-12 col-md-6 d-flex justify-content-center">
+                        <img class="img-fluid rounded-circle" src="./media/landscape-975091_1920.jpg" alt="">
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 mt-4 mt-md-0">
                         <h3>Lorem Ipsum dolor</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla perferendis est cumque dignissimos officiis ullam minus ea veniam ut quibusdam corrupti architecto possimus neque aut, assumenda, enim consectetur, necessitatibus repudiandae!</p>
                     </div>
@@ -227,17 +233,18 @@
             </div>
         </section>
     </main>
+    <!-- Footer -->
     <footer class="position-relative">
         <img class="img-fluid position-absolute bottom-100 w-100" src="media/other.png" alt="" id="img-footer">
         <div class="container">
             <div class="row py-5">
-                <div class="col-9">
+                <div class="col-12 col-md-9">
                     <h3>Lorem</h3>
                     <h4>Testo generico</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi perspiciatis vero quos, ut explicabo odit recusandae veniam. Facilis temporibus ut laboriosam. Aliquam accusamus eligendi in fuga nihil officiis et.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sequi perspiciatis vero quos, ut explicabo odit recusandae veniam. Facilis temporibus ut laboriosam. Aliquam accusamus eligendi in fuga nihil officiis et.</p>
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center">
+                <div class="col-12 col-md-3 d-flex flex-column justify-content-center">
                     <h4>Quick Link</h4>
                     <ul>
                         <li>Lorem link</li>
