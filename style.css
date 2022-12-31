@@ -75,11 +75,6 @@ header {
     background-color: var(--rosso);
 }
 
-.bottone {
-    margin-top: 7rem;
-    margin-bottom: -12rem;
-}
-
 .pulsante:hover {
     background-color: var(--rosso) !important;
 }
