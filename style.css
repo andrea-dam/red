@@ -79,9 +79,8 @@ header {
     background-color: var(--rosso) !important;
 }
 
-body, .carta {
+body {
     background-color: #ECECEC;
-    /* max-width: 100%; */
 }
 
 .carte {
